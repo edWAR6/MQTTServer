@@ -1,0 +1,29 @@
+{
+  "name": "mqttserver",
+  "version": "1.0.0",
+  "description": "nodeJS MQTT server for iot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edWAR6/MQTTServer.git"
+  },
+  "keywords": [
+    "mqtt",
+    "iot"
+  ],
+  "author": "Eduardo Oviedo Blanco (edWAR6)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edWAR6/MQTTServer/issues"
+  },
+  "homepage": "https://github.com/edWAR6/MQTTServer#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mqtt": "^2.11.0",
+    "string-to-stream": "^1.1.0",
+    "watson-developer-cloud": "^2.37.0"
+  }
+}
